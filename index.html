@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+            integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>Cart</title>
+    </head>
+    <body>
+        <main class="flex justify-center align-center">
+            <section class="card">
+                <h2 class="card-title">YAY! it's BOGO</h2>
+
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="product-card flex">
+                        <section class="sticker flex flex-column justify-center align-center">
+                            <p class="sticker-text">30%</p>
+                            <p class="sticker-text">Off</p>
+                        </section>
+                        <section class="flex flex-grow justify-between">
+                            <div class="flex align-center justify-center">
+                                <div class="mx-2 radio"></div>
+                                <div class="offer">
+                                    <p class="font-14">Buy 1 Get 2</p>
+                                    <p class="font-15 font-weight-600 price">$18.00 USD</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Product 1 Content -->
+                    <div class="product-content flex flex-column gap-1 hide">
+                        <section class="flex">
+                            <div class="flex gap-2 align-center justify-center">
+                                <input type="radio" class="radio" checked />
+
+                                <div class="flex flex-column">
+                                    <div class="flex align-center mb-1 gap-1">
+                                        <p class="font-14">Buy 1 Get 2</p>
+                                        <div class="mini-sticker">30% Off</div>
+                                    </div>
+
+                                    <div class="flex align-center gap-1">
+                                        <p class="font-15 font-weight-600">$18.00 USD</p>
+                                        <p
+                                            class="font-12 font-weight-300 text-secondary line-through"
+                                        >
+                                            $30.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="flex flex-column gap-1 mb-1">
+                            <div class="flex gap-1 align-end">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#1</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Size</p>
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Colour</p>
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex align-end gap-1">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#2</p>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="product-card flex">
+                        <section class="sticker flex flex-column justify-center align-center">
+                            <p class="sticker-text">30%</p>
+                            <p class="sticker-text">Off</p>
+                        </section>
+                        <section class="flex flex-grow justify-between align-center">
+                            <div class="flex align-center justify-center">
+                                <div class="mx-2 radio"></div>
+                                <div class="offer">
+                                    <p class="font-14">Buy 2 Get 4</p>
+                                    <p class="font-15 font-weight-600 price">$24.00 USD</p>
+                                </div>
+                            </div>
+
+                            <p class="font-14 font-weight-500 primary-color mr-2 popular">
+                                Most Popular
+                            </p>
+                        </section>
+                    </div>
+
+                    <!-- Product 2 Content -->
+                    <div class="product-content flex flex-column gap-1 hide">
+                        <section class="flex align-start justify-between">
+                            <div class="flex gap-2 align-center justify-center">
+                                <input type="radio" class="radio" checked />
+
+                                <div class="flex flex-column">
+                                    <div class="flex align-center mb-1 gap-1">
+                                        <p class="font-14">Buy 2 Get 4</p>
+                                        <div class="mini-sticker">30% Off</div>
+                                    </div>
+
+                                    <div class="flex align-center gap-1">
+                                        <p class="font-15 font-weight-600">$24.00 USD</p>
+                                        <p
+                                            class="font-12 font-weight-300 text-secondary line-through"
+                                        >
+                                            $30.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="font-14 font-weight-500 primary-color">Most Popular</p>
+                        </section>
+
+                        <section class="flex flex-column gap-1 mb-1">
+                            <div class="flex gap-1 align-end">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#1</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Size</p>
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Colour</p>
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex align-end gap-1">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#2</p>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="product-card flex hide">
+                        <section class="sticker flex flex-column justify-center align-center">
+                            <p class="sticker-text">10%</p>
+                            <p class="sticker-text">Off</p>
+                        </section>
+                        <section class="flex flex-grow justify-between align-center">
+                            <div class="flex align-center justify-center">
+                                <div class="mx-2 radio"></div>
+                                <div class="offer">
+                                    <p class="font-14">Buy 3 Get 6</p>
+                                    <p class="font-15 font-weight-600 price">$36.00 USD</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Product 3 Content -->
+                    <div class="product-content flex flex-column gap-1">
+                        <section class="flex">
+                            <div class="flex gap-2 align-center justify-center">
+                                <input type="radio" class="radio" checked />
+
+                                <div class="flex flex-column">
+                                    <div class="flex align-center mb-1 gap-1">
+                                        <p class="font-14">Buy 3 Get 6</p>
+                                        <div class="mini-sticker">10% Off</div>
+                                    </div>
+
+                                    <div class="flex align-center gap-1">
+                                        <p class="font-15 font-weight-600">$36.00 USD</p>
+                                        <p
+                                            class="font-12 font-weight-300 text-secondary line-through"
+                                        >
+                                            $10.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="flex flex-column gap-1 mb-1">
+                            <div class="flex gap-1 align-end">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#1</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Size</p>
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <p class="font-14 mb-1">Colour</p>
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex align-end gap-1">
+                                <div class="col-1">
+                                    <p class="text-right font-12 sb-1">#2</p>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option value="">Size</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <select value="">
+                                        <option selected value="">Colour</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Pink">Pink</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="flex justify-between mb-2">
+                    <p class="font-14 font-weight-600 primary-color">Free Delivery</p>
+                    <p class="font-14 font-weight-600" id="total-price">Total: $36.00 USD</p>
+                </div>
+
+                <button class="btn-primary mb-1">
+                    <i
+                        class="fa fa-plus"
+                        aria-hidden="true"
+                        style="font-size: 20px; margin-right: 8px"
+                    ></i>
+                    Add to Cart
+                </button>
+                <p class="font-14 font-weight-600 text-tertiary text-center">
+                    Powered by <span class="primary-color">Pumper</span>
+                </p>
+            </section>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>
